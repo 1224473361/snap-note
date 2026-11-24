@@ -1,0 +1,62 @@
+# ===== 密钥与凭据（绝不提交） =====
+local.properties
+**/local.properties
+*.jks
+*.keystore
+signing.properties
+**/signing.properties
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# ===== Android 构建产物 =====
+android/.gradle/
+android/.idea/
+android/build/
+android/**/build/
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+android/local.properties
+
+# Gradle wrapper 的 jar 是构建必需，保留
+!android/gradle/wrapper/gradle-wrapper.jar
+
+# ===== Android Studio / IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# ===== Node / Vite（PC 端） =====
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.dev/
+*.local
+
+# ===== AI 工具与本地记忆（含本机路径/内部笔记） =====
+.cursor/
+.trae/
+.workbuddy/
+.claude/
+AGENTS.md
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# ===== 临时与备份 =====
+.gradle-local/
+*.tmp
+*.bak
+*~

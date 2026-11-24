@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 已有基础文案（默认中文） -->
+    <string name="app_name">snap-note</string>
+    <string name="empty_title">还没有记录</string>
+    <string name="empty_subtitle">按住下方按钮说话</string>
+    <string name="recording_hint">正在录音… 上滑取消</string>
+    <string name="coming_soon">即将推出</string>
+    <string name="permission_denied">请授予麦克风权限</string>
+    <string name="widget_record_label">录音</string>
+    <string name="widget_record_desc">打开 snap-note 快速录音</string>
+
+    <!-- 通用 -->
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="back">返回</string>
+    <string name="select_date">选择日期</string>
+
+    <!-- 语言 -->
+    <string name="settings_language">语言</string>
+    <string name="settings_language_subtitle">中文 / English / 跟随系统</string>
+    <string name="language_system">跟随系统</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+
+    <!-- 系统配置 -->
+    <string name="settings_title">系统配置</string>
+    <string name="settings_section_display">显示与字体</string>
+    <string name="settings_font_source">字体来源</string>
+    <string name="settings_font_size">字体大小</string>
+    <string name="settings_font_size_approx">约 %1$s</string>
+    <string name="settings_appearance">外观模式</string>
+    <string name="settings_appearance_subtitle">浅色 / 深色 / 跟随系统</string>
+    <string name="settings_section_interaction">交互与列表</string>
+    <string name="settings_haptic">触感反馈</string>
+    <string name="settings_haptic_subtitle">点击与保存成功时轻微振动</string>
+    <string name="settings_reduce_motion">减弱动效</string>
+    <string name="settings_reduce_motion_subtitle">关闭列表按压缩放等动画，操作更干脆</string>
+    <string name="settings_show_seconds">列表时间显示秒</string>
+    <string name="settings_show_seconds_subtitle">首页记录时间显示为 时:分:秒</string>
+    <string name="settings_stats_card_style">统计卡片样式</string>
+
+    <!-- 首页模块 -->
+    <string name="home_mode_note">语音笔记</string>
+    <string name="home_mode_meal">饭记</string>
+    <string name="home_mode_feeding">育儿记</string>
+    <string name="home_mode_chronicle">大事记</string>
+    <string name="home_module_picker">首页模块</string>
+    <string name="switch_home_module">切换首页模块</string>
+    <string name="current_module">当前模块</string>
+    <string name="empty_meal_title">还没有饭记</string>
+    <string name="empty_meal_subtitle">点击下方相机记录这一餐</string>
+    <string name="empty_chronicle_title">还没有大事记</string>
+    <string name="empty_chronicle_subtitle">点击下方按钮记录体重、身高或里程碑</string>
+    <string name="empty_feeding_subtitle">下拉可同步飞书 · 点击下方按钮记一笔</string>
+    <string name="home_tab_stats">统计</string>
+    <string name="home_tab_search">搜索</string>
+    <string name="home_tab_mine">我的</string>
+    <string name="fab_record">录音</string>
+    <string name="fab_photo">拍照</string>
+    <string name="fab_add">记一笔</string>
+
+    <!-- 我的页 -->
+    <string name="mine_title">我的</string>
+    <string name="mine_search_records">搜索记录</string>
+    <string name="mine_search_records_subtitle">按日期与关键词筛选</string>
+    <string name="mine_feeding_config">育儿记配置</string>
+    <string name="mine_feeding_config_configured">育儿描述短语 · 已配置 %1$d 条</string>
+    <string name="mine_feeding_config_unconfigured">育儿描述短语 · 快捷标签增删改</string>
+    <string name="mine_feishu">飞书与协作</string>
+    <string name="mine_feishu_enabled">飞书同步已启用</string>
+    <string name="mine_feishu_disabled">多维表格同步 · 未配置</string>
+    <string name="mine_data">数据与备份</string>
+    <string name="mine_data_subtitle">存储、导出与回收站</string>
+    <string name="mine_iflytek">讯飞语音</string>
+    <string name="mine_iflytek_enabled">转写配置与调用日志 · 已配置</string>
+    <string name="mine_iflytek_disabled">转写配置与调用日志 · 未配置</string>
+    <string name="mine_update">应用更新</string>
+    <string name="mine_update_subtitle">从 GitHub Releases 安装最新版</string>
+    <string name="mine_system_settings_subtitle">%1$s · 字号%2$s</string>
+
+    <!-- 我的页二级菜单 -->
+    <string name="hub_feishu_title">飞书与协作</string>
+    <string name="hub_feishu_subtitle_enabled">已启用，两台手机填写相同配置</string>
+    <string name="hub_feishu_subtitle_disabled">配置飞书多维表格，两人共享数据</string>
+    <string name="hub_feishu_sync">飞书同步</string>
+    <string name="hub_data_title">数据与备份</string>
+    <string name="hub_data_storage">存储管理</string>
+    <string name="hub_data_storage_subtitle">空间占用、备份恢复、桌面快捷方式</string>
+    <string name="hub_data_export">记录导出</string>
+    <string name="hub_data_export_subtitle">按日期复制记录到剪贴板</string>
+    <string name="hub_trash">回收站</string>
+    <string name="hub_trash_deleted">%1$d 条已删除</string>
+    <string name="hub_trash_empty">找回或彻底删除</string>
+    <string name="hub_iflytek_title">讯飞语音</string>
+    <string name="hub_iflytek_configured">语音转写、识图与 AI 已配置</string>
+    <string name="hub_iflytek_unconfigured">填写 APPID / APIKey / APISecret</string>
+    <string name="hub_iflytek_logs">调用日志</string>
+    <string name="hub_iflytek_logs_subtitle">查看语音识别请求与结果</string>
+
+    <!-- 提示 -->
+    <string name="toast_camera_permission">需要相机权限才能拍照</string>
+    <string name="toast_no_photo">未拍到照片</string>
+    <string name="toast_quick_record_hint">按住底部按钮开始录音</string>
+    <string name="toast_install_file_missing">安装包不存在</string>
+    <string name="toast_allow_unknown_sources">请在设置中允许本应用安装未知应用</string>
+
+    <!-- 记录导出 -->
+    <string name="export_title">记录导出</string>
+    <string name="export_switch_type">切换导出类型</string>
+    <string name="export_change">更换</string>
+    <string name="export_no_content">该日期暂无%1$s</string>
+    <string name="export_total_amount">共 %1$d ml</string>
+    <string name="export_copy">复制</string>
+    <string name="export_dishes_blank">（未填写菜品）</string>
+</resources>

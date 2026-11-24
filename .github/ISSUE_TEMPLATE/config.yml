@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题 / Security issue
+    url: https://github.com/1224473361/snap-note/security/advisories/new
+    about: 请勿公开报告安全漏洞，使用私有 Security Advisory
+  - name: 商业授权 / Commercial license
+    url: mailto:1224473361@qq.com?subject=SnapNote%20商业授权咨询
+    about: 商业使用授权请发邮件至 1224473361@qq.com（也可在仓库开 Issue 注明 "商业授权"）

@@ -1,0 +1,69 @@
+SnapNote Dual-Use License
+Version 1.0
+
+Copyright (c) 2026 SnapNote Contributors
+
+This license governs the use, copying, modification and distribution of the
+SnapNote software and its source code (the "Software"). By using the Software
+you agree to the terms below.
+
+1. DEFINITIONS
+
+   "Personal Use" means use of the Software by a natural person for their own
+   or their family's non-commercial purposes, including personal note-taking,
+   journaling, childcare and household record keeping.
+
+   "Commercial Use" means any use of the Software by, on behalf of, or for the
+   benefit of a company, corporation, organization, institution, sole
+   proprietorship, or other legal entity; or any use intended to generate
+   revenue, including but not limited to selling the Software, offering it as
+   a paid or ad-supported service, using it in client work, or deploying it
+   for internal business operations.
+
+2. PERSONAL USE GRANT (FREE)
+
+   For Personal Use, you are granted a worldwide, royalty-free, non-exclusive
+   license to:
+
+     (a) use, copy, modify, and compile the Software;
+     (b) fork the Software and publish your modified source code, provided
+         this license and the copyright notice are retained;
+     (c) share compiled binaries (e.g. APK files) with other individuals for
+         free, without bundling advertising or charging a fee;
+     (d) quote and reference portions of the source code in tutorials, blog
+         posts, and educational material, with attribution to the SnapNote
+         project and a copy of this license.
+
+3. COMMERCIAL USE REQUIRES A PAID LICENSE
+
+   Commercial Use is NOT permitted under the free grant in Section 2. To use
+   the Software for Commercial Use, you must first obtain a separate written
+   commercial license from the copyright holder. Requests can be submitted by
+   emailing 1224473361@qq.com or by opening an issue in the project repository.
+
+   Until a commercial license is obtained, all Commercial Use is prohibited.
+
+4. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+5. THIRD-PARTY COMPONENTS
+
+   The Software depends on third-party libraries and assets (including but not
+   limited to AndroidX, Kotlin, OkHttp, Gson, ECharts and Vue). Such components
+   remain subject to their own respective licenses. Nothing in this license
+   overrides the license terms of third-party components.
+
+6. MISCELLANEOUS
+
+   This license is not an Open Source license as defined by the Open Source
+   Initiative (OSI), because it restricts Commercial Use. If you do not agree
+   to these terms, do not use the Software.
+
+   The copyright holder reserves all rights not expressly granted herein.

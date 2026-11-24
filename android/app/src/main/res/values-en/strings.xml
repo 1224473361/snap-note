@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic texts -->
+    <string name="app_name">snap-note</string>
+    <string name="empty_title">No records yet</string>
+    <string name="empty_subtitle">Hold the button below to speak</string>
+    <string name="recording_hint">Recording... swipe up to cancel</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="permission_denied">Please grant microphone permission</string>
+    <string name="widget_record_label">Record</string>
+    <string name="widget_record_desc">Open snap-note for quick recording</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="back">Back</string>
+    <string name="select_date">Select date</string>
+
+    <!-- Language -->
+    <string name="settings_language">Language</string>
+    <string name="settings_language_subtitle">Chinese / English / Follow system</string>
+    <string name="language_system">Follow system</string>
+    <string name="language_chinese">Chinese</string>
+    <string name="language_english">English</string>
+
+    <!-- System settings -->
+    <string name="settings_title">System settings</string>
+    <string name="settings_section_display">Display and font</string>
+    <string name="settings_font_source">Font source</string>
+    <string name="settings_font_size">Font size</string>
+    <string name="settings_font_size_approx">approx. %1$s</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_appearance_subtitle">Light / Dark / Follow system</string>
+    <string name="settings_section_interaction">Interaction and list</string>
+    <string name="settings_haptic">Haptic feedback</string>
+    <string name="settings_haptic_subtitle">Light vibration on taps and successful saves</string>
+    <string name="settings_reduce_motion">Reduce motion</string>
+    <string name="settings_reduce_motion_subtitle">Disable press animations for a snappier feel</string>
+    <string name="settings_show_seconds">Show seconds in list time</string>
+    <string name="settings_show_seconds_subtitle">Show record times as hour:minute:second on home</string>
+    <string name="settings_stats_card_style">Stats card style</string>
+
+    <!-- Home modes -->
+    <string name="home_mode_note">Voice notes</string>
+    <string name="home_mode_meal">Meal log</string>
+    <string name="home_mode_feeding">Baby log</string>
+    <string name="home_mode_chronicle">Milestones</string>
+    <string name="home_module_picker">Home modules</string>
+    <string name="switch_home_module">Switch home module</string>
+    <string name="current_module">Current module</string>
+    <string name="empty_meal_title">No meals yet</string>
+    <string name="empty_meal_subtitle">Tap the camera below to log this meal</string>
+    <string name="empty_chronicle_title">No milestones yet</string>
+    <string name="empty_chronicle_subtitle">Use the button below to record weight, height or milestones</string>
+    <string name="empty_feeding_subtitle">Pull down to sync Feishu - tap below to add an entry</string>
+    <string name="home_tab_stats">Stats</string>
+    <string name="home_tab_search">Search</string>
+    <string name="home_tab_mine">Mine</string>
+    <string name="fab_record">Record</string>
+    <string name="fab_photo">Photo</string>
+    <string name="fab_add">Add entry</string>
+
+    <!-- Mine screen -->
+    <string name="mine_title">Mine</string>
+    <string name="mine_search_records">Search records</string>
+    <string name="mine_search_records_subtitle">Filter by date and keyword</string>
+    <string name="mine_feeding_config">Baby log settings</string>
+    <string name="mine_feeding_config_configured">Baby phrases - %1$d configured</string>
+    <string name="mine_feeding_config_unconfigured">Baby phrases - manage quick tags</string>
+    <string name="mine_feishu">Feishu and collaboration</string>
+    <string name="mine_feishu_enabled">Feishu sync enabled</string>
+    <string name="mine_feishu_disabled">Feishu Base sync - not configured</string>
+    <string name="mine_data">Data and backup</string>
+    <string name="mine_data_subtitle">Storage, export and recycle bin</string>
+    <string name="mine_iflytek">iFlytek Speech</string>
+    <string name="mine_iflytek_enabled">Transcription and logs - configured</string>
+    <string name="mine_iflytek_disabled">Transcription and logs - not configured</string>
+    <string name="mine_update">App update</string>
+    <string name="mine_update_subtitle">Install the latest from GitHub Releases</string>
+    <string name="mine_system_settings_subtitle">%1$s - font size %2$s</string>
+
+    <!-- Mine hub screens -->
+    <string name="hub_feishu_title">Feishu and collaboration</string>
+    <string name="hub_feishu_subtitle_enabled">Enabled - use the same config on both phones</string>
+    <string name="hub_feishu_subtitle_disabled">Set up Feishu Base to share data</string>
+    <string name="hub_feishu_sync">Feishu sync</string>
+    <string name="hub_data_title">Data and backup</string>
+    <string name="hub_data_storage">Storage management</string>
+    <string name="hub_data_storage_subtitle">Usage, backup and restore, home shortcut</string>
+    <string name="hub_data_export">Export records</string>
+    <string name="hub_data_export_subtitle">Copy records by date to the clipboard</string>
+    <string name="hub_trash">Recycle bin</string>
+    <string name="hub_trash_deleted">%1$d deleted</string>
+    <string name="hub_trash_empty">Restore or delete permanently</string>
+    <string name="hub_iflytek_title">iFlytek Speech</string>
+    <string name="hub_iflytek_configured">Speech, vision and AI configured</string>
+    <string name="hub_iflytek_unconfigured">Enter APPID / APIKey / APISecret</string>
+    <string name="hub_iflytek_logs">Request logs</string>
+    <string name="hub_iflytek_logs_subtitle">View speech recognition requests and results</string>
+
+    <!-- Toasts -->
+    <string name="toast_camera_permission">Camera permission is required to take photos</string>
+    <string name="toast_no_photo">No photo captured</string>
+    <string name="toast_quick_record_hint">Hold the bottom button to start recording</string>
+    <string name="toast_install_file_missing">Installer file not found</string>
+    <string name="toast_allow_unknown_sources">Allow this app to install unknown apps in Settings</string>
+
+    <!-- Record export -->
+    <string name="export_title">Export records</string>
+    <string name="export_switch_type">Switch export type</string>
+    <string name="export_change">Change</string>
+    <string name="export_no_content">No %1$s for this date</string>
+    <string name="export_total_amount">Total %1$d ml</string>
+    <string name="export_copy">Copy</string>
+    <string name="export_dishes_blank">(No dishes entered)</string>
+</resources>

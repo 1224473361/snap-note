@@ -1,0 +1,16 @@
+## SDK（Android Studio 会自动生成，勿提交 local.properties）
+sdk.dir=C\:\\Users\\你的用户名\\AppData\\Local\\Android\\Sdk
+
+## 命令行 gradlew 用的 JDK（17 或更高；每台电脑路径不同，勿提交）
+# java.home=D\:\\install\\java\\jdk-21.0.9
+
+## 讯飞语音听写（可选，留空则需在 App「我的 → 讯飞语音」内填写）
+## https://console.xfyun.cn/
+IFLYTEK_APP_ID=
+IFLYTEK_API_KEY=
+IFLYTEK_API_SECRET=
+
+## GitHub Releases 更新源（可选；公开仓库无需令牌）
+## 留空时使用默认值 1224473361 / snap-note；fork 后改成你自己的 GitHub 用户名与仓库名
+GITHUB_RELEASE_OWNER=
+GITHUB_RELEASE_REPO=

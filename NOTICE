@@ -1,0 +1,17 @@
+SnapNote - 极简语音备忘录 / Minimal voice notes
+Copyright (c) 2026 SnapNote Contributors
+
+This project is distributed under the SnapNote Dual-Use License v1.0.
+Personal and family use is free; commercial use requires a separate license.
+See LICENSE for the full terms (LICENSE-CN.md for the Chinese reference).
+
+This product includes software developed by third parties under their own
+licenses. A non-exhaustive list of major dependencies:
+
+- AndroidX / Jetpack Compose (Apache 2.0)
+- Kotlin (Apache 2.0)
+- OkHttp (Apache 2.0)
+- Gson (Apache 2.0)
+- ECharts (Apache 2.0)
+- Vue.js (MIT)
+- Vite (MIT)
