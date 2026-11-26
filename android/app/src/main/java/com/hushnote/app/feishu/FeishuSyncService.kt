@@ -516,7 +516,7 @@ class FeishuSyncService(
                             dateKey = dateKey,
                             value = value ?: base.value,
                             title = "",
-                            body = "",
+                            body = body,
                             updatedAt = remoteUpdatedAt
                         )
                     }

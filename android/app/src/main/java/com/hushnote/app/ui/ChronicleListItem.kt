@@ -86,7 +86,18 @@ fun ChronicleListItem(
                         overflow = TextOverflow.Ellipsis
                     )
                 }
-                ChronicleType.WEIGHT, ChronicleType.HEIGHT -> Unit
+                ChronicleType.WEIGHT, ChronicleType.HEIGHT -> {
+                    if (item.body.isNotBlank()) {
+                        Text(
+                            text = item.body,
+                            color = AppColors.TextSecondary,
+                            fontSize = 14.sp,
+                            maxLines = 2,
+                            overflow = TextOverflow.Ellipsis,
+                            modifier = Modifier.padding(top = 4.dp)
+                        )
+                    }
+                }
             }
         }
     }

@@ -74,6 +74,16 @@ fun ChronicleRecordFormFields(
                 fontSize = 12.sp,
                 modifier = Modifier.padding(top = 4.dp)
             )
+            OutlinedTextField(
+                value = body,
+                onValueChange = onBodyChange,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(top = 12.dp),
+                label = { Text("说明（选填）") },
+                minLines = 3,
+                colors = outlinedFieldColors()
+            )
         }
         ChronicleType.MILESTONE -> {
             OutlinedTextField(

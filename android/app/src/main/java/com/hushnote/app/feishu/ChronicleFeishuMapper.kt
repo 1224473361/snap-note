@@ -30,7 +30,7 @@ object ChronicleFeishuMapper {
             ChronicleType.WEIGHT, ChronicleType.HEIGHT -> {
                 item.value?.let { put(FeishuFields.VALUE, it) }
                 put(FeishuFields.TITLE, "")
-                put(FeishuFields.BODY, "")
+                put(FeishuFields.BODY, item.body)
             }
             ChronicleType.MILESTONE -> {
                 put(FeishuFields.TITLE, item.title)

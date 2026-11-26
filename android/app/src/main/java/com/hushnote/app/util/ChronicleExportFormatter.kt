@@ -16,6 +16,7 @@ object ChronicleExportFormatter {
                 when (item.type) {
                     ChronicleType.WEIGHT, ChronicleType.HEIGHT -> {
                         ChronicleFormat.displayValue(item.type, item.value)?.let { append(it).append('\n') }
+                        if (item.body.isNotBlank()) append(item.body).append('\n')
                     }
                     ChronicleType.MILESTONE -> {
                         if (item.title.isNotBlank()) append(item.title).append('\n')

@@ -243,6 +243,10 @@ fun RecordExportScreen(
                                             append(' ')
                                             append(it)
                                         }
+                                        if (item.body.isNotBlank()) {
+                                            append(' ')
+                                            append(item.body)
+                                        }
                                     }
                                     ChronicleType.MILESTONE -> {
                                         if (item.title.isNotBlank()) {
