@@ -54,7 +54,7 @@ function feishuMiddleware(env: Record<string, string>) {
 
 function feishuApiPlugin(env: Record<string, string>): Plugin {
   return {
-    name: 'snap-note-feishu-api',
+    name: 'hush-note-feishu-api',
     configureServer(server) {
       attachFeishuApi(server.middlewares, env)
     },

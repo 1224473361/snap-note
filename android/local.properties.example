@@ -11,6 +11,6 @@ IFLYTEK_API_KEY=
 IFLYTEK_API_SECRET=
 
 ## GitHub Releases 更新源（可选；公开仓库无需令牌）
-## 留空时使用默认值 1224473361 / snap-note；fork 后改成你自己的 GitHub 用户名与仓库名
+## 留空时使用默认值 1224473361 / hush-note；fork 后改成你自己的 GitHub 用户名与仓库名
 GITHUB_RELEASE_OWNER=
 GITHUB_RELEASE_REPO=

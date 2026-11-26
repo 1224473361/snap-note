@@ -1,4 +1,4 @@
-﻿# SnapNote 育儿记 PC 页：后台启动 Vite 并打开浏览器
+﻿# HushNote 育儿记 PC 页：后台启动 Vite 并打开浏览器
 $ErrorActionPreference = "Stop"
 
 $PcDir = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Basic texts -->
-    <string name="app_name">snap-note</string>
+    <string name="app_name">HushNote</string>
     <string name="empty_title">No records yet</string>
     <string name="empty_subtitle">Hold the button below to speak</string>
     <string name="recording_hint">Recording... swipe up to cancel</string>
     <string name="coming_soon">Coming soon</string>
     <string name="permission_denied">Please grant microphone permission</string>
     <string name="widget_record_label">Record</string>
-    <string name="widget_record_desc">Open snap-note for quick recording</string>
+    <string name="widget_record_desc">Open HushNote for quick recording</string>
 
     <!-- Common -->
     <string name="cancel">Cancel</string>

@@ -1,4 +1,4 @@
-# SnapNote · Voice Notes
+# HushNote · Whisper Notes
 
 > Press to talk, automatic transcription, local playback. A minimal Android app built for family records.
 
@@ -19,7 +19,7 @@
 
 ## Licensing
 
-SnapNote uses a **dual-use license**:
+HushNote uses a **dual-use license**:
 
 | Use case | Free? |
 |----------|-------|
@@ -68,7 +68,7 @@ npm run dev
 ## Project layout
 
 ```text
-snap-note/
+hush-note/
 ├── android/     Android Compose app (main project)
 ├── pc/          Vue3 + TypeScript read-only page
 ├── docs/        Bilingual docs (zh/ and en/)

@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "snap-note"
+rootProject.name = "hush-note"
 include(":app")

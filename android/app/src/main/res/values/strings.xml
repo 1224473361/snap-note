@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- 已有基础文案（默认中文） -->
-    <string name="app_name">snap-note</string>
+    <string name="app_name">HushNote</string>
     <string name="empty_title">还没有记录</string>
     <string name="empty_subtitle">按住下方按钮说话</string>
     <string name="recording_hint">正在录音… 上滑取消</string>
     <string name="coming_soon">即将推出</string>
     <string name="permission_denied">请授予麦克风权限</string>
     <string name="widget_record_label">录音</string>
-    <string name="widget_record_desc">打开 snap-note 快速录音</string>
+    <string name="widget_record_desc">打开 HushNote 快速录音</string>
 
     <!-- 通用 -->
     <string name="cancel">取消</string>

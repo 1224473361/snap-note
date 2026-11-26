@@ -10,21 +10,21 @@ Android 要求每个安装包都用同一个密钥签名才能升级安装。开
 
 ```bash
 keytool -genkeypair -v \
-  -keystore snap-note-release.jks \
-  -alias snap-note \
+  -keystore hush-note-release.jks \
+  -alias hush-note \
   -keyalg RSA -keysize 2048 -validity 10000
 ```
 
-按提示设置**两次密码**（建议不同），并记住 alias（示例为 `snap-note`）。
+按提示设置**两次密码**（建议不同），并记住 alias（示例为 `hush-note`）。
 
 ## 2. 创建本地配置
 
 在本目录创建 `signing.properties`（**已被 .gitignore 忽略**）：
 
 ```properties
-storeFile=snap-note-release.jks
+storeFile=hush-note-release.jks
 storePassword=你的store密码
-keyAlias=snap-note
+keyAlias=hush-note
 keyPassword=你的key密码
 ```
 

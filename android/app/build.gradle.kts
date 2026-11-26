@@ -27,7 +27,7 @@ val signingProps = Properties().apply {
 fun signingProp(name: String): String = signingProps.getProperty(name, "")
 
 android {
-    namespace = "com.snapnote.app"
+    namespace = "com.hushnote.app"
     compileSdk = 34
 
     // 仅当本地存在 keystore/signing.properties 时才配置 release 签名。
@@ -46,7 +46,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.snapnote.app"
+        applicationId = "com.hushnote.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -123,9 +123,9 @@ android.applicationVariants.configureEach {
         val stamp = SimpleDateFormat("yyyy-MM-dd-HHmm", Locale.getDefault()).format(Date())
         // 文件名不要含空格，否则 Windows 上 adb install 常报 Broken pipe / UNKNOWN
         output.outputFileName = if (variant.buildType.name == "release") {
-            "snap-note-$stamp.apk"
+            "hush-note-$stamp.apk"
         } else {
-            "snap-note-$stamp-${variant.buildType.name}.apk"
+            "hush-note-$stamp-${variant.buildType.name}.apk"
         }
     }
 }

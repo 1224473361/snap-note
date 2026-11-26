@@ -1,4 +1,4 @@
-# SnapNote · 语音备忘录
+# HushNote · 轻声备忘录
 
 > 按住说话、自动转写、本地列表回听。一个为家庭记录而生的极简 Android App。
 
@@ -68,7 +68,7 @@ npm run dev
 ## 目录结构
 
 ```text
-snap-note/
+hush-note/
 ├── android/     Android Compose 应用（主工程）
 ├── pc/          Vue3 + TypeScript 只读页
 ├── docs/        中英双语文档（zh/ 与 en/）

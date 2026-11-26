@@ -1,6 +1,6 @@
 # 贡献指南 / Contributing
 
-感谢你考虑为 SnapNote 做贡献。
+感谢你考虑为 HushNote 做贡献。
 
 ## 贡献前须知
 
@@ -33,7 +33,7 @@ cd ../pc && npm ci && npm run build
 
 ## 开发约定
 
-- **UI 配色**：以 `android/app/src/main/java/com/snapnote/app/ui/AppColors.kt` 为唯一来源，同时适配深色模式，不要自定义十六进制色值。
+- **UI 配色**：以 `android/app/src/main/java/com/hushnote/app/ui/AppColors.kt` 为唯一来源，同时适配深色模式，不要自定义十六进制色值。
 - **新增界面文案**：必须使用字符串资源（`res/values/strings.xml` + `values-en/strings.xml`），不要硬编码中文，见 [i18n 说明](docs/i18n.md)。
 - **密钥**：一律通过 `local.properties`（Android）或 `.env`（PC）注入，对应 `.example` 文件只放占位符。
 
